@@ -1,3 +1,3 @@
 # This week I learnt about
--Understanding git and github
--Creating branching and pushing to them
+-Understanding git and github<br>
+-Branching and pushing to them
