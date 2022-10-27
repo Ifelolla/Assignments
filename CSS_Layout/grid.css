@@ -1,0 +1,61 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background: #1a1c28;
+  display: flex;
+  height:100vh;
+  align-items :center;
+}
+
+main{
+  display:grid;
+  grid-template-areas :
+  "a a a a b"
+  "a a a a b"
+  "c c d d d"
+  "c c e e e";
+  width :50%;
+  margin:auto;
+  gap: 6px;
+}
+main div{
+  padding: 2em;
+}
+
+.box1{
+  background:#eb5020;
+  grid-area: a;
+  padding:3em;
+
+}
+
+.box2{
+  background: orange;
+  grid-area: b;
+}
+
+.box3{
+  background:#05aa42;
+  grid-area: c;
+}
+
+.box4{
+  background: #01aefd;
+  grid-area: d;
+}
+
+.box5{
+  background:#01aefd;
+  grid-area:e;
+}
+a{
+  text-decoration:none;
+}
