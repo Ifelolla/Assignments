@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(to right,#35BDF2,#5298F2,#6D74F2,#9130F2);
+}
+.container {
+  min-height:70vh;
+  min-width:75vw;
+  background:white;
+  margin:12.5%;
+  padding:15px;
+  border-radius:10px;
+  width:fit-content;
+  block:fit-content;
+}
+
+.btn{
+  width:100%;
+  text-align :center;
+  background: linear-gradient(to right,#35BDF2,#5298F2,#6D74F2,#9130F2);
+  border: none;
+  color: white;
+  padding:7px;
+  margin:auto;
+}
+
+footer{
+  text-align: center;
+}

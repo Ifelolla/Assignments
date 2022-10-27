@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign up</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class= "container">
+    <div class= "heading">
+      <h1>Register</h1>
+    </div> 
+<div class= "main">
+<form>
+<table>
+<tr>
+  <td>
+<label for= "fname">First Name</label>
+</td>
+<td>
+<input type= "text" placeholder= "firstname" required>
+  </td>
+ </tr>
+ <tr>
+      <td>
+          <label for="lname">Last name</label>
+      </td>
+      <td>
+        <input type="text" placeholder="last name" required>
+      </td>
+ </tr>
+ <tr>
+      <td>
+        <label for="phonenumber">Phone Number</label>
+      </td>
+      <td>
+        <input type="number" placeholder="08011234575" required>
+      </td>
+ </tr>
+ <tr>
+    <td>
+      <label for="email">Email</label>
+    </td>
+    <td><input type="email" placeholder ="abcd@email.com" required>
+    </td>
+ </tr>
+ <tr>
+    <td>
+        <label for="gender">Gender</label>
+    </td>
+    <td>
+      <select required>
+         <option >Select your gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option >Prefer not to say</option>
+      </select>
+    </td>
+ </tr>
+ <tr>
+    <td>
+        <label for ="DOB">Date of birth</label>
+    </td>
+    <td><input type="date" required>
+    </td>
+ </tr>
+ <tr>
+    <td>
+      <label for="color">Favorite colour</label>
+    </td>
+    <td><input type="color">
+    </td>
+ </tr>
+ <tr>
+    <td>
+      <label for="password">Password</label>
+    </td>
+    <td><input type="password" placeholder="select password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+    </td>
+ </tr>
+ <tr>
+    <td>
+      <label for="password">Password</label>
+    </td>
+    <td><input type="password" placeholder="confirm password" required>
+    </td>
+</tr>
+</table>
+  <input type= "submit" class="btn"><hr>
+</form>
+</div>
+  </div>
+  <footer>
+    <p>Already have an account? <a href= "login.html">Login </a></p>
+  </footer>
+
+  <script src="script.js"></script>
+
+ 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
